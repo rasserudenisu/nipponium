@@ -2,8 +2,8 @@ extern crate nipponium;
 
 #[cfg(test)]
 mod tests {
-    use nipponium::kana::kana;
-    use nipponium::romaji::romaji;
+    use nipponium::kana;
+    use nipponium::romaji;
 
     #[test]
     fn to_hiragana() {
