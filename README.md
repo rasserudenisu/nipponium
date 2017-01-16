@@ -9,8 +9,8 @@ Toolkit for Japanese text in Rust.
 
 # Examples
 ```
-use nipponium::kana::kana;
-use nipponium::romaji::romaji;
+use nipponium::kana;
+use nipponium::romaji;
 
 kana::to_hiragana("アイウエオ");
 kana::to_katakana("あいうえお");
